@@ -1,0 +1,104 @@
+/* style.css */
+body {
+    background-color: rgb(163, 224, 250);
+    font-family: 'Georgia', serif;
+}
+
+header h1 {
+    text-align: center;
+    color: #333;
+}
+
+section h2 {
+    color: #0056b3;
+}
+
+section p {
+    line-height: 1.6;
+    color: #333;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    padding: 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 0.9em;
+}
+.about-me {
+    text-align: center; /* Centers the title */
+    padding: 20px;
+}
+
+.info-box {
+    width: 70%; /* Limits the width of the box */
+    margin: 20px auto; /* Centers the box horizontally */
+    border: 2px solid rgb(177, 232, 255); /* Adds a light blue border */
+    padding: 15px; /* Adds spacing inside the box */
+    border-radius: 8px; /* Rounds the edges of the box */
+    background-color: #f9f9f9; /* Adds a light background color */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Adds a slight shadow for better visuals */
+}
+
+p {
+    margin: 0; /* Ensures no extra spacing inside the box */
+    line-height: 1.6; /* Improves text readability */
+    color: #333; /* Makes text a bit darker for readability */
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333; /* Change this to your preferred color */
+    transition: color 0.3s ease, transform 0.3s ease, text-decoration 0.3s ease; /* Adding transition effect */
+}
+
+nav ul li a:hover {
+    color: #cb6ee4; /* Change this to the hover color you prefer */
+    transform: scale(1.1); /* Slightly increases the size when hovered */
+    text-decoration: underline; /* Underline the text on hover */
+}
+footer a {
+    text-decoration: none;
+    color: #333; /* Set the default link color */
+    transition: color 0.3s ease, transform 0.3s ease, text-decoration 0.3s ease; /* Adding transition effect */
+}
+
+footer a:hover {
+    color: #cb6ee4; /* Change this to the hover color you prefer */
+    transform: scale(1.1); /* Slightly increases the size when hovered */
+    text-decoration: underline; /* Underline the text on hover */
+}
+
+/* Add basic styling for your links */
+a {
+    text-decoration: none; /* Remove default underline */
+    color: #000; /* Black color for links (can be customized) */
+    transition: color 0.3s ease, text-decoration 0.3s ease; /* Smooth transition for color and text-decoration */
+}
+
+/* Add hover effect */
+a:hover {
+    color: rgb(0, 100, 255); /* Change to blue when hovered */
+    text-decoration: underline; /* Underline the link when hovered */
+}
+
+
